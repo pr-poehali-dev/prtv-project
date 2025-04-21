@@ -18,7 +18,7 @@ const Index = () => {
             className="w-full bg-primary hover:bg-primary/90 text-white"
             onClick={handleAddButton}
           >
-            Нажми, чтобы добавить кнопку
+            Кнопка для удаления канала
           </Button>
           
           {buttons.map((id) => (

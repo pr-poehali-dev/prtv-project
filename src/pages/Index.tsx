@@ -26,6 +26,7 @@ const Index = () => {
               key={id} 
               className="w-full bg-secondary hover:bg-secondary/90"
               variant="secondary"
+              onClick={handleAddButton}
             >
               Кнопка #{id + 1}
             </Button>
